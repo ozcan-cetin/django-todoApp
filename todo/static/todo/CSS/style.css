@@ -1,0 +1,70 @@
+.navbar {
+    background-color: cadetblue;
+}
+
+.container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#warning {
+    background-color: lightcoral;
+    color: aliceblue;
+    margin: auto;
+    width: 40%;
+    height: 30%;
+    text-align: center;
+}
+#success {
+    background-color: darkseagreen ;
+    color:rgb(231, 200, 158);
+    margin: auto;
+    width: 40%;
+    height: 30%;
+    text-align: center;
+}
+
+.card,.table-div{
+    background-color: rgba(0,0,0,0.5);
+    color: white !important;
+    padding:1rem;
+    margin-top: 1rem !important;
+}
+.table-div table th,.table-div table td{
+    color: white !important;
+}
+
+.form input:not(input[type="submit"]),textarea{
+    width: 100%;
+    background-color: rgba(255, 255, 255,.5);
+    border-style: solid;
+    outline: none;
+}
+.form textarea{
+    resize: none;
+    height: 8rem;
+    overflow:auto;
+  
+}
+.form label{
+    display: block;
+}
+.form select{
+    width: 100%;
+    background-color: rgba(255, 255, 255,.5);
+}
+.form select option{
+    background-color: rgba(255, 255, 255,.5);
+}
+input[type="submit"]{
+    width: 100%;
+}
+body {
+    /* background-image: url(https://cdn.pixabay.com/photo/2017/01/24/03/53/plant-2004483__480.jpg); */
+    background-image: url('https://images.unsplash.com/photo-1473186578172-c141e6798cf4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHJlbGF4fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
